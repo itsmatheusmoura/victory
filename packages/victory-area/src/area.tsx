@@ -14,6 +14,7 @@ import {
 } from "victory-core";
 
 const defined = (d) => {
+  console.log("TESTE")
   const y = d._y1 !== undefined ? d._y1 : d._y;
   return y !== null && y !== undefined && d._y0 !== null;
 };
